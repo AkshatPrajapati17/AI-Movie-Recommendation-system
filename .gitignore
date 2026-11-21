@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# CineMatch AI cache and large generated poster image files
+cache/*.npz
+cache/*.pkl
+posters/*.jpg
+posters/*.jpeg
+posters/*.png
+posters/*.webp
+!posters/.gitkeep
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
